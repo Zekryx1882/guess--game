@@ -2,6 +2,7 @@
 import random
 
 def main():
+    print("Welcome to Guess the Number!")
     number = random.randint(1, 10)
     guess = None
     while guess != number:
